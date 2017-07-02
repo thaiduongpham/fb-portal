@@ -6,12 +6,16 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { TopNavComponent } from './header/top-nav/top-nav.component';
+import { MainNavComponent } from './header/main-nav/main-nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    TopNavComponent,
+    MainNavComponent
   ],
   imports: [
     BrowserModule,
